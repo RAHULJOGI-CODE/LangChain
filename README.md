@@ -1,5 +1,7 @@
 # 🧠 Course Chatbot - AI-Powered Course Assistant
-An interactive chatbot using **LangChain, Pinecone, and Gemini AI**, designed to help users explore courses, get pricing, and receive AI-generated recommendations.
+An interactive chatbot using **LangChain, Pinecone, and Gemini AI**, designed to help users explore courses, get pricing, and receive AI-generated recommendations of "Brainlox".
+
+In this i scrape data from "https://brainlox.com/courses/category/technical" and the chatbot is created soley with context as thsat scraped data and under gemini for better conversations
 
 ## 🚀 Features
 ✅ **Web-based chatbot UI** (Flask + HTML)  
@@ -12,7 +14,7 @@ An interactive chatbot using **LangChain, Pinecone, and Gemini AI**, designed to
 ## 🛠️ Installation & Setup
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/Course-Chatbot.git
+git clone https://github.com/RAHULJOGI-CODE/LangChain/
 cd Course-Chatbot
 ```
 
@@ -50,7 +52,9 @@ python Flask_API.py
 ├── 📂 `data/` → Cleaned course data  
 ├── 📂 `templates/` → Chat UI (`index.html`)  
 ├── 📂 `scripts/` → Web scraping (`webscraping.py`)  
-├── `Flask_API.py` → Main API backend  
+      ` Flask_API.py` → Main API backend  
+      ` Vector_embeddings.py` → for creation ans storing of embeddinbgs 
+      
 ├── `requirements.txt` → Python dependencies  
 └── `README.md` → Documentation  
 
