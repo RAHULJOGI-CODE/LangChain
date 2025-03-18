@@ -68,10 +68,5 @@ python Flask_API.py
 ## 🤝 Contributing
 Want to improve this chatbot? Feel free to **fork** this repo and submit a **pull request**.  
 
-🔗 **GitHub Repo:** [Course-Chatbot](https://github.com/yourusername/Course-Chatbot)  
-📧 **Contact:** your.email@example.com
+🔗 **GitHub Repo:** [Course-Chatbot](https://github.com/RAHULJOGI-CODE/LangChain/)  
 
----
-
-## 📜 License
-This project is **MIT Licensed**. Feel free to use and modify it!
