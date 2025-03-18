@@ -16,14 +16,15 @@ device = "cpu"
 model = SentenceTransformer("all-MiniLM-L6-v2", device=device)
 
 # Initialize Pinecone
-pc = Pinecone(api_key="pcsk_5juGvg_KyoP7ij5FaZLLvSFtuKhmapdJfzdfKarDZULmLzcZU1kXD51iNqtN9SrBELTiJc")
+
+pc = Pinecone(api_key="YOUR_API_KEY")
 index_name = "course-details-search"
 index = pc.Index(index_name)
 
 # Initialize Memory to Store Chat History
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
-gemini_api_key = "AIzaSyDxiXqLTdeGJavlu_cW1VOoYWq66PWkSfg"
+gemini_api_key = "YOUR_API_KEY"
 genai.configure(api_key=gemini_api_key)
 
 llm = genai.GenerativeModel(model_name="gemini-1.5-flash-002")
